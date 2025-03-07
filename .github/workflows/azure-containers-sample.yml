@@ -12,6 +12,8 @@
           uses: azure/container-apps-deploy-action@v1
           with:
             appSourcePath: ${{ github.workspace }}/AzureContainersSample
+            acrUserName: azurecontainerssample
+            acrPassowrd: 5DpD+4TeyoxftxNCzEQX4f4WB4MEm/M+HlHVIngLDt+ACRBxU9Vr
             acrName: azurecontainerssample
             containerAppName: azure-containers-sample-app 
             resourceGroup: registry-tutorial
