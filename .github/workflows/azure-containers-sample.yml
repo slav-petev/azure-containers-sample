@@ -11,7 +11,7 @@
         - name: Build and deploy Container App
           uses: azure/container-apps-deploy-action@v1
           with:
-            appSourcePath: {{ github.workspace }}/AzureContainersSample
+            appSourcePath: ${{ github.workspace }}/AzureContainersSample
             acrName: azurecontainerssample
             containerAppName: azure-containers-sample-app 
             resourceGroup: registry-tutorial
