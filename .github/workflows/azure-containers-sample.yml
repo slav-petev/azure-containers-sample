@@ -12,7 +12,7 @@
           uses: azure/container-apps-deploy-action@v1
           with:
             appSourcePath: {{ github.workspace }}/AzureContainersSample
-            containerAppName: azure-containers-sample-app 
             acrName: azurecontainerssample
+            containerAppName: azure-containers-sample-app 
             resourceGroup: registry-tutorial
 
