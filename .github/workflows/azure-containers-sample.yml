@@ -1,0 +1,2 @@
+  name: Azure-Containers-Sample Workflow
+  on: [push]
