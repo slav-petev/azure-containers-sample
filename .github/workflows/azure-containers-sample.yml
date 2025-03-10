@@ -37,6 +37,3 @@ jobs:
         docker tag $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:$TAG $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:latest
         docker push $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:$TAG
         docker push $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:latest
-
-    - name: Print Image Info
-      run: echo "Image pushed: $AZURE_CONTAINER_REGISTRY/$IMAGE_NAME:$TAG"
