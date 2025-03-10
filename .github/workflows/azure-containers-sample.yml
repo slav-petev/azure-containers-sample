@@ -3,7 +3,7 @@ name: Deploy .NET Core 3.1 to Azure Container Registry
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   AZURE_CONTAINER_REGISTRY: slavazureregistry.azurecr.io  # Replace with your ACR login server
